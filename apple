@@ -1,0 +1,2 @@
+## apple
+/ip route add comment=apple dst-address=17.0.0.0/8 gateway=117.28.231.30
