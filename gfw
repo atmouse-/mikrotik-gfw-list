@@ -596,8 +596,8 @@
 /ip firewall address-list add list=gfw address=96.16.168.0/22
 /ip firewall address-list add list=gfw address=96.7.54.0/23
 /ip firewall address-list add list=gfw address=96.7.96.0/20
-# HE dns
-/ip firewall address-list add list=gfw address=74.82.42.42/32
+# DNS server ns601.imsbiz.com.
+/ip firewall address-list add list=gfw address=210.87.251.1/32
 # onedrive
 /ip firewall address-list add list=gfw address=204.79.197.217/32
 /ip firewall address-list add list=gfw address=40.90.136.179/32
