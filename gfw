@@ -93,46 +93,17 @@
 /ip firewall address-list add list=gfw address=149.154.164.0/22
 /ip firewall address-list add list=gfw address=149.154.168.0/22
 /ip firewall address-list add list=gfw address=149.154.172.0/22
-# Amazon S3 except aws-bjs
-/ip firewall address-list add list=gfw address=52.92.0.0/19
-/ip firewall address-list add list=gfw address=52.92.32.0/22
-/ip firewall address-list add list=gfw address=52.92.39.0/24
-/ip firewall address-list add list=gfw address=52.92.40.0/21
-/ip firewall address-list add list=gfw address=52.92.48.0/20
-/ip firewall address-list add list=gfw address=52.92.64.0/20
-/ip firewall address-list add list=gfw address=52.92.80.0/21
-/ip firewall address-list add list=gfw address=52.92.88.0/22
-/ip firewall address-list add list=gfw address=52.92.248.0/21
+# Amazon S3（s3-ap-northeast-1.amazonaws.com，s3-ap-southeast-2.amazonaws.com）
+/ip firewall address-list add list=gfw address=52.92.52.0/22
+/ip firewall address-list add list=gfw address=52.92.60.0/22
+/ip firewall address-list add list=gfw address=52.92.80.0/22
 /ip firewall address-list add list=gfw address=52.95.128.0/21
-/ip firewall address-list add list=gfw address=52.95.136.0/23
-/ip firewall address-list add list=gfw address=52.95.138.0/24
-/ip firewall address-list add list=gfw address=52.95.142.0/23
-/ip firewall address-list add list=gfw address=52.95.144.0/22
-/ip firewall address-list add list=gfw address=52.95.148.0/23
-/ip firewall address-list add list=gfw address=52.95.150.0/24
-/ip firewall address-list add list=gfw address=52.95.154.0/23
-/ip firewall address-list add list=gfw address=52.95.156.0/22
-/ip firewall address-list add list=gfw address=52.95.163.0/24
-/ip firewall address-list add list=gfw address=52.95.164.0/22
-/ip firewall address-list add list=gfw address=52.95.168.0/22
-/ip firewall address-list add list=gfw address=52.95.172.0/23
-/ip firewall address-list add list=gfw address=52.95.174.0/24
-/ip firewall address-list add list=gfw address=52.216.0.0/15
-/ip firewall address-list add list=gfw address=52.218.0.0/16
-/ip firewall address-list add list=gfw address=52.219.0.0/19
-/ip firewall address-list add list=gfw address=52.219.32.0/20
-/ip firewall address-list add list=gfw address=52.219.56.0/21
-/ip firewall address-list add list=gfw address=52.219.64.0/19
-/ip firewall address-list add list=gfw address=52.219.96.0/20
-/ip firewall address-list add list=gfw address=52.219.112.0/21
-/ip firewall address-list add list=gfw address=52.219.120.0/22
-/ip firewall address-list add list=gfw address=54.231.0.0/17
-/ip firewall address-list add list=gfw address=54.231.128.0/18
-/ip firewall address-list add list=gfw address=54.231.192.0/20
-/ip firewall address-list add list=gfw address=54.231.224.0/20
-/ip firewall address-list add list=gfw address=54.231.240.0/22
+/ip firewall address-list add list=gfw address=52.219.0.0/20
+/ip firewall address-list add list=gfw address=52.219.16.0/22
+/ip firewall address-list add list=gfw address=52.219.68.0/22
+/ip firewall address-list add list=gfw address=52.219.136.0/22
 /ip firewall address-list add list=gfw address=54.231.248.0/22
-/ip firewall address-list add list=gfw address=54.231.252.0/23
+/ip firewall address-list add list=gfw address=54.231.252.0/24
 # TUMBLR
 /ip firewall address-list add list=gfw address=66.6.32.0/23
 # Pinterest AS53620
