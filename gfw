@@ -131,10 +131,6 @@
 # AS2818 BBC
 /ip firewall address-list add list=gfw address=132.185.0.0/16
 /ip firewall address-list add list=gfw address=212.58.224.0/19
-# pixiv Inc. YO14880JP
-/ip firewall address-list add list=gfw address=210.129.120.0/25
-# IDC Frontier Inc. DE578JP IDCF-CLOUD (pixiv sketch video)
-/ip firewall address-list add list=gfw address=210.140.172.0/22
 # AS7941 INTERN-95 INTERNET-ARCHIVE
 /ip firewall address-list add list=gfw address=207.241.224.0/20
 /ip firewall address-list add list=gfw address=208.70.24.0/21
@@ -163,3 +159,5 @@
 /ip firewall address-list add list=gfw address=www.amazon.co.jp
 # pinterest on fastly CDN, akamai CDN
 /ip firewall address-list add list=gfw address=www.pinterest.com
+# pixiv.net on IDC Frontier
+/ip firewall address-list add list=gfw address=www.pixiv.net
