@@ -153,7 +153,7 @@
 /ip firewall address-list add list=gfw address=208.78.164.0/22
 # Steam community on akamai CDN
 /ip firewall address-list add list=gfw address=steamcommunity.com
-# amazon japan on akamai CDN
+# amazon japan on akamai CDN, cloudfront CDN
 /ip firewall address-list add list=gfw address=www.amazon.co.jp
-# pinterest on fastly CDN
+# pinterest on fastly CDN, akamai CDN
 /ip firewall address-list add list=gfw address=www.pinterest.com
