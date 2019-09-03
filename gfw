@@ -161,3 +161,6 @@
 /ip firewall address-list add list=gfw address=www.pinterest.com
 # pixiv.net on IDC Frontier
 /ip firewall address-list add list=gfw address=www.pixiv.net
+# microsoft onedrive on MS-edge CDN
+/ip firewall address-list add list=gfw address=onedrive.live.com
+/ip firewall address-list add list=gfw address=skyapi.onedrive.live.com
