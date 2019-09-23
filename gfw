@@ -65,27 +65,6 @@
 /ip firewall address-list add list=gfw address=203.104.152.0/22
 /ip firewall address-list add list=gfw address=203.104.156.0/23
 /ip firewall address-list add list=gfw address=203.104.158.0/24
-# as54113 FASTLY
-/ip firewall address-list add list=gfw address=23.185.0.0/24
-/ip firewall address-list add list=gfw address=23.235.32.0/20
-/ip firewall address-list add list=gfw address=43.249.72.0/22
-/ip firewall address-list add list=gfw address=63.211.233.2/32
-/ip firewall address-list add list=gfw address=103.244.50.0/24
-/ip firewall address-list add list=gfw address=103.245.222.0/23
-/ip firewall address-list add list=gfw address=103.245.224.0/24
-/ip firewall address-list add list=gfw address=104.156.80.0/20
-/ip firewall address-list add list=gfw address=104.244.43.0/24
-/ip firewall address-list add list=gfw address=151.101.0.0/16
-/ip firewall address-list add list=gfw address=157.52.64.0/18
-/ip firewall address-list add list=gfw address=167.82.0.0/17
-/ip firewall address-list add list=gfw address=167.82.128.0/20
-/ip firewall address-list add list=gfw address=167.82.160.0/20
-/ip firewall address-list add list=gfw address=167.82.224.0/20
-/ip firewall address-list add list=gfw address=172.111.64.0/18
-/ip firewall address-list add list=gfw address=185.31.16.0/22
-/ip firewall address-list add list=gfw address=185.199.108.0/22
-/ip firewall address-list add list=gfw address=199.27.72.0/21
-/ip firewall address-list add list=gfw address=199.232.0.0/16
 # telegram
 /ip firewall address-list add list=gfw address=91.108.4.0/22
 /ip firewall address-list add list=gfw address=91.108.8.0/22
