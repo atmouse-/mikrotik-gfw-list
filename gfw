@@ -136,15 +136,15 @@
 /ip firewall address-list add list=gfw address=208.64.200.0/22
 /ip firewall address-list add list=gfw address=208.78.164.0/22
 # Steam community on akamai CDN
-/ip firewall address-list add list=gfw address=steamcommunity.com
+/ip firewall address-list add list=gfwtls address=steamcommunity.com
 # amazon japan on akamai CDN, cloudfront CDN
-/ip firewall address-list add list=gfw address=www.amazon.co.jp
+/ip firewall address-list add list=gfwtls address=www.amazon.co.jp
 # pinterest on fastly CDN, akamai CDN
-/ip firewall address-list add list=gfw address=www.pinterest.com
+/ip firewall address-list add list=gfwtls address=www.pinterest.com
 # pixiv.net on IDC Frontier
-/ip firewall address-list add list=gfw address=www.pixiv.net
+/ip firewall address-list add list=gfwtls address=www.pixiv.net
 # microsoft onedrive on MS-edge CDN
-/ip firewall address-list add list=gfw address=onedrive.live.com
-/ip firewall address-list add list=gfw address=skyapi.onedrive.live.com
+/ip firewall address-list add list=gfwtls address=onedrive.live.com
+/ip firewall address-list add list=gfwtls address=skyapi.onedrive.live.com
 # reddit on fastly CDN
-/ip firewall address-list add list=gfw address=www.reddit.com
+/ip firewall address-list add list=gfwtls address=www.reddit.com
