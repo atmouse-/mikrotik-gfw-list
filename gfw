@@ -129,3 +129,5 @@
 /ip firewall address-list add list=gfwtls address=skyapi.onedrive.live.com
 # reddit on fastly CDN
 /ip firewall address-list add list=gfwtls address=www.reddit.com
+# artstation on cloudflare CDN
+/ip firewall address-list add list=gfwtls address=www.artstation.com
