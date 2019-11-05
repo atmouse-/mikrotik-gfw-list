@@ -78,17 +78,6 @@
 /ip firewall address-list add list=gfw address=149.154.164.0/22
 /ip firewall address-list add list=gfw address=149.154.168.0/22
 /ip firewall address-list add list=gfw address=149.154.172.0/22
-# Amazon S3（s3-ap-northeast-1.amazonaws.com，s3-ap-southeast-2.amazonaws.com）
-/ip firewall address-list add list=gfw address=52.92.52.0/22
-/ip firewall address-list add list=gfw address=52.92.60.0/22
-/ip firewall address-list add list=gfw address=52.92.80.0/22
-/ip firewall address-list add list=gfw address=52.95.128.0/21
-/ip firewall address-list add list=gfw address=52.219.0.0/20
-/ip firewall address-list add list=gfw address=52.219.16.0/22
-/ip firewall address-list add list=gfw address=52.219.68.0/22
-/ip firewall address-list add list=gfw address=52.219.136.0/22
-/ip firewall address-list add list=gfw address=54.231.248.0/22
-/ip firewall address-list add list=gfw address=54.231.252.0/24
 # TUMBLR
 /ip firewall address-list add list=gfw address=66.6.32.0/23
 # Pinterest AS53620
@@ -116,18 +105,3 @@
 # AS7941 INTERN-95 INTERNET-ARCHIVE
 /ip firewall address-list add list=gfw address=207.241.224.0/20
 /ip firewall address-list add list=gfw address=208.70.24.0/21
-# Steam community on akamai CDN
-/ip firewall address-list add list=gfwtls address=steamcommunity.com
-# amazon japan on akamai CDN, cloudfront CDN
-/ip firewall address-list add list=gfwtls address=www.amazon.co.jp
-# pinterest on fastly CDN, akamai CDN
-/ip firewall address-list add list=gfwtls address=www.pinterest.com
-# pixiv.net on IDC Frontier
-/ip firewall address-list add list=gfwtls address=www.pixiv.net
-# microsoft onedrive on MS-edge CDN
-/ip firewall address-list add list=gfwtls address=onedrive.live.com
-/ip firewall address-list add list=gfwtls address=skyapi.onedrive.live.com
-# reddit on fastly CDN
-/ip firewall address-list add list=gfwtls address=www.reddit.com
-# artstation on cloudflare CDN
-/ip firewall address-list add list=gfwtls address=www.artstation.com
