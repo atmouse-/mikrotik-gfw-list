@@ -76,11 +76,6 @@
 /ip firewall address-list add list=gfw address=149.154.164.0/22
 /ip firewall address-list add list=gfw address=149.154.168.0/22
 /ip firewall address-list add list=gfw address=149.154.172.0/22
-# Pinterest AS53620
-/ip firewall address-list add list=gfw address=141.193.88.0/24
-/ip firewall address-list add list=gfw address=192.34.198.0/24
-/ip firewall address-list add list=gfw address=192.94.66.0/24
-/ip firewall address-list add list=gfw address=198.187.223.0/24
 # nicovideo.jp AS38634 DWANGO Co.,Ltd.
 /ip firewall address-list add list=gfw address=119.110.88.0/21
 /ip firewall address-list add list=gfw address=119.110.88.0/22
