@@ -76,8 +76,6 @@
 /ip firewall address-list add list=gfw address=149.154.164.0/22
 /ip firewall address-list add list=gfw address=149.154.168.0/22
 /ip firewall address-list add list=gfw address=149.154.172.0/22
-# TUMBLR
-/ip firewall address-list add list=gfw address=66.6.32.0/23
 # Pinterest AS53620
 /ip firewall address-list add list=gfw address=141.193.88.0/24
 /ip firewall address-list add list=gfw address=192.34.198.0/24
