@@ -38,11 +38,13 @@
 /ip firewall address-list add list=gfw address=199.201.64.0/22
 /ip firewall address-list add list=gfw address=204.15.20.0/22
 # twitter AS13414
+/ip firewall address-list add list=gfw address=64.63.0.0/18
 /ip firewall address-list add list=gfw address=69.12.56.0/21
+/ip firewall address-list add list=gfw address=69.195.160.0/19
+/ip firewall address-list add list=gfw address=103.55.162.0/24
 /ip firewall address-list add list=gfw address=103.252.112.0/22
 /ip firewall address-list add list=gfw address=104.244.40.0/21
 /ip firewall address-list add list=gfw address=185.45.4.0/22
-/ip firewall address-list add list=gfw address=188.64.224.0/21
 /ip firewall address-list add list=gfw address=192.44.68.0/23
 /ip firewall address-list add list=gfw address=192.48.236.0/23
 /ip firewall address-list add list=gfw address=192.133.76.0/22
@@ -51,6 +53,7 @@
 /ip firewall address-list add list=gfw address=199.69.58.0/23
 /ip firewall address-list add list=gfw address=199.96.56.0/21
 /ip firewall address-list add list=gfw address=202.160.128.0/22
+/ip firewall address-list add list=gfw address=209.237.192.0/19
 # dropbox AS19679
 /ip firewall address-list add list=gfw address=45.58.64.0/20
 /ip firewall address-list add list=gfw address=108.160.160.0/20
