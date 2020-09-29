@@ -15,6 +15,8 @@
 /ip firewall address-list add list=gfw address=172.217.160.0/20
 /ip firewall address-list add list=gfw address=172.217.192.0/19
 /ip firewall address-list add list=gfw address=172.217.32.0/20
+/ip firewall address-list add list=gfw address=172.253.56.0/21
+/ip firewall address-list add list=gfw address=172.253.112.0/20
 /ip firewall address-list add list=gfw address=173.194.0.0/16
 /ip firewall address-list add list=gfw address=209.85.128.0/17
 /ip firewall address-list add list=gfw address=216.239.32.0/19
