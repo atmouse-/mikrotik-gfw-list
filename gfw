@@ -113,3 +113,6 @@
 /ip firewall address-list add list=gfw address=151.101.64.84/32
 /ip firewall address-list add list=gfw address=151.101.0.84/32
 /ip firewall address-list add list=gfw address=151.101.192.84/32
+# imgur, Partial of Fastly
+/ip firewall address-list add list=gfw address=151.101.40.193/32
+/ip firewall address-list add list=gfw address=151.101.24.193/32
