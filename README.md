@@ -14,3 +14,7 @@ Update firewall address-list
 scp gfwl2 admin@10.0.0.6:
 /import gfwl2
 ```
+
+```
+/ip firewall address-list remove [/ip firewall address-list find address="152.195.50.0/23"]
+```

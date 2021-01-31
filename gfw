@@ -57,9 +57,10 @@
 /ip firewall address-list add list=gfw address=199.96.56.0/21
 /ip firewall address-list add list=gfw address=202.160.128.0/22
 /ip firewall address-list add list=gfw address=209.237.192.0/19
-# twitter Anycast of Edgecast
+# Anycast of Edgecast, twitter
 /ip firewall address-list add list=gfw address=152.199.24.0/24
 /ip firewall address-list add list=gfw address=152.199.43.0/24
+/ip firewall address-list add list=gfw address=192.229.173.0/24
 # dropbox AS19679
 /ip firewall address-list add list=gfw address=45.58.64.0/20
 /ip firewall address-list add list=gfw address=108.160.160.0/20
@@ -100,5 +101,5 @@
 /ip firewall address-list add list=gfw address=204.155.144.0/20
 /ip firewall address-list add list=gfw address=208.88.224.0/22
 /ip firewall address-list add list=gfw address=208.94.232.0/22
-# reddit, twitch, pinterest, imgur, vimeo Anycast of Fastly
+# Anycast of Fastly, reddit, twitch, pinterest, imgur, vimeo
 /ip firewall address-list add list=gfw address=151.101.0.0/16
