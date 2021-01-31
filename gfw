@@ -97,27 +97,5 @@
 /ip firewall address-list add list=gfw address=204.155.144.0/20
 /ip firewall address-list add list=gfw address=208.88.224.0/22
 /ip firewall address-list add list=gfw address=208.94.232.0/22
-# reddit, Partial of Fastly
-/ip firewall address-list add list=gfw address=151.101.65.140/32
-/ip firewall address-list add list=gfw address=151.101.129.140/32
-/ip firewall address-list add list=gfw address=151.101.1.140/32
-/ip firewall address-list add list=gfw address=151.101.193.140/32
-# twitch, Partial of Fastly
-/ip firewall address-list add list=gfw address=151.101.130.167/32
-/ip firewall address-list add list=gfw address=151.101.194.167/32
-/ip firewall address-list add list=gfw address=151.101.66.167/32
-/ip firewall address-list add list=gfw address=151.101.2.167/32
-/ip firewall address-list add list=gfw address=151.101.78.167/32
-# pinterest, Partial of Fastly
-/ip firewall address-list add list=gfw address=151.101.128.84/32
-/ip firewall address-list add list=gfw address=151.101.64.84/32
-/ip firewall address-list add list=gfw address=151.101.0.84/32
-/ip firewall address-list add list=gfw address=151.101.192.84/32
-# imgur, Partial of Fastly
-/ip firewall address-list add list=gfw address=151.101.40.193/32
-/ip firewall address-list add list=gfw address=151.101.24.193/32
-# vimeo, Partial of Fastly
-/ip firewall address-list add list=gfw address=151.101.128.217/32
-/ip firewall address-list add list=gfw address=151.101.192.217/32
-/ip firewall address-list add list=gfw address=151.101.0.217/32
-/ip firewall address-list add list=gfw address=151.101.64.217/32
+# reddit, twitch, pinterest, imgur, vimeo Anycast of Fastly
+/ip firewall address-list add list=gfw address=151.101.0.0/16
