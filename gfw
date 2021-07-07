@@ -108,4 +108,33 @@
 /ip firewall address-list add list=gfw address=185.199.108.0/22
 # bgp.he.net AS6939
 /ip firewall address-list add list=gfw address=72.52.64.0/18
+# Anycast of AWS GlobalAccelerator
+/ip firewall address-list add list=gfw address=3.2.8.0/21
+/ip firewall address-list add list=gfw address=3.3.0.0/23
+/ip firewall address-list add list=gfw address=3.3.6.0/23
+/ip firewall address-list add list=gfw address=3.3.8.0/21
+/ip firewall address-list add list=gfw address=3.33.128.0/17
+/ip firewall address-list add list=gfw address=13.248.96.0/21
+/ip firewall address-list add list=gfw address=13.248.104.0/22
+/ip firewall address-list add list=gfw address=13.248.108.0/23
+/ip firewall address-list add list=gfw address=13.248.111.0/24
+/ip firewall address-list add list=gfw address=13.248.112.0/20
+/ip firewall address-list add list=gfw address=13.248.128.0/17
+/ip firewall address-list add list=gfw address=15.197.0.0/23
+/ip firewall address-list add list=gfw address=15.197.2.0/24
+/ip firewall address-list add list=gfw address=15.197.4.0/22
+/ip firewall address-list add list=gfw address=15.197.128.0/17
+/ip firewall address-list add list=gfw address=35.71.128.0/17
+/ip firewall address-list add list=gfw address=52.223.0.0/17
+/ip firewall address-list add list=gfw address=54.230.192.0/21
+/ip firewall address-list add list=gfw address=75.2.0.0/17
+/ip firewall address-list add list=gfw address=76.223.0.0/17
+/ip firewall address-list add list=gfw address=99.77.188.0/23
+/ip firewall address-list add list=gfw address=99.77.190.0/24
+/ip firewall address-list add list=gfw address=99.82.156.0/22
+/ip firewall address-list add list=gfw address=99.82.160.0/20
+/ip firewall address-list add list=gfw address=99.83.96.0/24
+/ip firewall address-list add list=gfw address=99.83.98.0/23
+/ip firewall address-list add list=gfw address=99.83.100.0/23
+/ip firewall address-list add list=gfw address=99.83.128.0/17
 
