@@ -161,4 +161,31 @@
 /ip firewall address-list add list=gfw address=99.83.98.0/23
 /ip firewall address-list add list=gfw address=99.83.100.0/23
 /ip firewall address-list add list=gfw address=99.83.128.0/17
+# Anycast of Akamai AS33905
+/ip firewall address-list add list=gfw address=2.18.48.0/21
+/ip firewall address-list add list=gfw address=23.1.35.0/24
+/ip firewall address-list add list=gfw address=23.1.99.0/24
+/ip firewall address-list add list=gfw address=23.1.106.0/24
+/ip firewall address-list add list=gfw address=23.7.244.0/24
+/ip firewall address-list add list=gfw address=23.36.184.0/22
+/ip firewall address-list add list=gfw address=23.40.100.0/24
+/ip firewall address-list add list=gfw address=23.56.111.0/24
+/ip firewall address-list add list=gfw address=23.76.146.0/24
+/ip firewall address-list add list=gfw address=23.202.36.0/23
+/ip firewall address-list add list=gfw address=23.213.202.0/23
+/ip firewall address-list add list=gfw address=96.16.62.0/24
+/ip firewall address-list add list=gfw address=104.75.170.0/23
+/ip firewall address-list add list=gfw address=104.94.220.0/22
+/ip firewall address-list add list=gfw address=104.96.176.0/22
+/ip firewall address-list add list=gfw address=104.96.180.0/23
+/ip firewall address-list add list=gfw address=104.107.211.0/24
+/ip firewall address-list add list=gfw address=104.107.220.0/22
+/ip firewall address-list add list=gfw address=104.109.10.0/23
+/ip firewall address-list add list=gfw address=104.109.12.0/24
+/ip firewall address-list add list=gfw address=104.119.192.0/19
+/ip firewall address-list add list=gfw address=115.69.232.0/22
+/ip firewall address-list add list=gfw address=184.25.103.0/24
+/ip firewall address-list add list=gfw address=184.25.179.0/24
+/ip firewall address-list add list=gfw address=184.31.3.0/24
+/ip firewall address-list add list=gfw address=184.31.10.0/24
 
