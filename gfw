@@ -86,6 +86,7 @@
 /ip firewall address-list add list=gfw address=152.199.43.0/24
 /ip firewall address-list add list=gfw address=192.229.173.0/24
 /ip firewall address-list add list=gfw address=192.229.163.0/24
+/ip firewall address-list add list=gfw address=192.229.237.0/24
 /ip firewall address-list add list=gfw address=72.21.91.0/24
 # dropbox AS19679
 /ip firewall address-list add list=gfw address=45.58.64.0/20
