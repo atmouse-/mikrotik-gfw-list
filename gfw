@@ -101,6 +101,7 @@
 /ip firewall address-list add list=gfw address=185.45.8.0/22
 /ip firewall address-list add list=gfw address=199.47.216.0/22
 # line.me AS38631
+/ip firewall address-list add list=gfw address=43.223.0.0/16
 /ip firewall address-list add list=gfw address=103.2.28.0/24
 /ip firewall address-list add list=gfw address=103.2.30.0/23
 /ip firewall address-list add list=gfw address=119.235.224.0/20
