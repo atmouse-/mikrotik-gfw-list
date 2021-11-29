@@ -45,6 +45,8 @@
 /ip firewall address-list add list=gfw address=130.211.8.0/21
 /ip firewall address-list add list=gfw address=130.211.16.0/20
 /ip firewall address-list add list=gfw address=130.211.32.0/20
+# Anycast of Google LLC AS396982, bitly
+/ip firewall address-list add list=gfw address=67.199.248.0/24
 # facebook AS32934
 /ip firewall address-list add list=gfw address=31.13.24.0/21
 /ip firewall address-list add list=gfw address=31.13.64.0/18
