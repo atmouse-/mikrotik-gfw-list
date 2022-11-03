@@ -237,3 +237,7 @@
 /ip firewall address-list add list=gfw address=150.171.40.0/22
 /ip firewall address-list add list=gfw address=150.171.44.0/24
 /ip firewall address-list add list=gfw address=204.79.197.0/24
+# Anycast of Cloudflare AS13335
+/ip firewall address-list add list=gfw address=104.16.0.0/13
+/ip firewall address-list add list=gfw address=104.24.0.0/14
+/ip firewall address-list add list=gfw address=108.162.192.0/18
